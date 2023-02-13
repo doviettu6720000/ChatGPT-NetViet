@@ -7,7 +7,7 @@ import openai
 # url = ngrok.connect(5000).public_url
 # conf.get_default().region = "us"
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='templates') 
 
 # print('Henzy Tunnel URL:', url)
 # Define the API endpoint and API key
